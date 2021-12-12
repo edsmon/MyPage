@@ -1,11 +1,16 @@
 import React from 'react'
-import { MainTitle, HeroContainer } from './HeroSectionElements'
+import { HeroTitle, HeroContainer, HeroTitleText, HeroTitleTextLower, Words } from './HeroSectionElements'
 
 const HeroSection = () => {
     return (
         <>
             <HeroContainer>
-                <MainTitle>Creative Web Designer</MainTitle>
+                <HeroTitle>
+                    <HeroTitleText title="Creative">Creative</HeroTitleText>
+                </HeroTitle>
+                <HeroTitleTextLower>
+                    <Words />
+                </HeroTitleTextLower>
             </HeroContainer>
         </>
     )

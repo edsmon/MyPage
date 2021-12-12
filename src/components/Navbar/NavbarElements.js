@@ -1,6 +1,53 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Logo1 from '../../Assets/imgs/RW-edsLog.png';
+import Logo2 from '../../Assets/imgs/RW-edsTxt.png';
+
+export const Logo = styled.object`
+  background-image: url(${Logo1});
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 140px;
+  height: 140px;
+
+  color: transparent;
+
+  animation: fadeIn 2s;
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+  
+`
+export const LogoScrolled = styled.object`
+  background-image: url(${Logo2});
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 140px;
+  height: 30px;
+  position: relative;
+
+  color: transparent;
+
+  animation: fadeIn 2s;
+
+  @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+`
 
 export const Nav = styled.nav`
   background: rgba(0,0,0,0.2);

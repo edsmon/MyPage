@@ -1,13 +1,16 @@
 import React from 'react';
-import { QuoteContainer } from './QuoteSectionElements';
+import { QuoteContainer, QuoteText, QuoteStyledText, QuoteButton } from './QuoteSectionElements';
 
 const QuoteSection = () => {
-    return (
-        <QuoteContainer>
-            <h1>This is an Animated Quote Section</h1>
-        </QuoteContainer>
 
+    return (
+        <>
+            <QuoteContainer>
+                <QuoteText>My mindset in pieces. ¿Which one align  <QuoteStyledText /></QuoteText>
+                <QuoteButton>Let me see</QuoteButton>
+            </QuoteContainer>
+        </>
     )
 }
 
-export default QuoteSection
+export default QuoteSection;

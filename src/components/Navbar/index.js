@@ -1,9 +1,10 @@
 
 import React, { useEffect, useState } from 'react';
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements';
+import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink, Logo, LogoScrolled } from './NavbarElements';
 import '../../App.css';
 
 const Navbar = () => {
+
     const [scrollLogo, setScrollLogo] = useState(true);
 
     const changeLogo = () => {
@@ -26,18 +27,18 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <img className={scrollLogo ? "logo" : "logoScrolled"} alt="edsmon" />
+                    {scrollLogo ? <Logo alt="edsmon" /> : <LogoScrolled alt="edsmon" />}
                 </NavLink>
                 <Bars />
                 <NavMenu>
                     <NavLink to="/about" activeStyle>
                         About
                     </NavLink>
-                    <NavLink to="/projects" activeStyle>
-                        Projects
+                    <NavLink to="/playground" activeStyle>
+                        Playground
                     </NavLink>
                     <NavBtn>
-                        <NavBtnLink to="/contact">Contacto</NavBtnLink>
+                        <NavBtnLink to="/contact">Contact</NavBtnLink>
                     </NavBtn>
                 </NavMenu>
             </Nav>
