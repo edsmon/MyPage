@@ -169,3 +169,55 @@ export const QuoteButton = styled.button`
       }
     }
 `;
+
+export const PhraseContainer = styled.div`
+  display: block;
+
+  position: relative;
+  top: 60%;
+  
+`
+export const Phrase = styled.div`
+  display: block;
+  font-size:clamp(1.5rem, 1vw, 1rem);
+  text-align:center;
+  
+
+  -webkit-animation: fadeout 5s linear forwards;
+  animation: fadeout 5s linear forwards;
+
+  @-webkit-keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+    
+@keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+  `
+export const Author = styled.div`
+  display: block;
+  font-size:clamp(1rem, 1vw, 1rem);
+  font-style: italic;
+  text-align:center;
+  
+
+  -webkit-animation: fadeout 7s linear forwards;
+  animation: fadeout 7s linear forwards;
+
+  @-webkit-keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+    
+@keyframes fadeout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+`
+export const PhrasesDiv = styled.div`
+  color: white;
+  
+
+`

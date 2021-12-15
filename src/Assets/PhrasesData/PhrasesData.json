@@ -1,0 +1,53 @@
+[
+    {
+        "id":1,
+        "phrase": "Any sufficiently advanced technology is equivalent to magic.",
+        "author": "Sir Arthur C. Clarke."
+    },
+    {
+        "id":2,
+        "phrase": "What drives and pulls the world forward is not machines but ideas.",
+        "author": "Víctor Hugo"
+    },
+    {
+        "id":3,
+        "phrase": "As long as there is someone who believes in an idea, the idea lives on.",
+        "author": "José Ortega Y Gasset"
+    },
+    {
+        "id":4,
+        "phrase": "If you've built castles in the air, it's not lost work, that's where they belong. Now build the foundations under them.",
+        "author": "Henry David Thoreau"
+    },
+    {
+        "id":5,
+        "phrase": "Learn the rules like a pro so you can break them like an artist.",
+        "author": "Pablo Picasso."
+    },
+    {
+        "id":6,
+        "phrase": "Others have seen it for what it is and asked.... why? I have seen what it could be and asked .... why not?.",
+        "author": "Pablo Picasso."
+    },
+    {
+        "id":7,
+        "phrase": "Make visible that which, without your vision, would never have been seen.",
+        "author": "Robert Bresson."
+    },
+    {
+        "id":8,
+        "phrase": "There must be chaos in yourself for you to give birth to a dancing star.",
+        "author": "Friedrich Nietzsche."
+    },
+    {
+        "id":9,
+        "phrase": "I force myself to contradict myself to avoid conforming to my own taste.",
+        "author": "Marcel Duchamp."
+    },
+    {
+        "id":10,
+        "phrase": "The road to creativity passes very close to the madhouse and often stops or ends there.",
+        "author": "Ernest Becker."
+    }
+
+]
