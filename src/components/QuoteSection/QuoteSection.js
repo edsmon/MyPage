@@ -35,7 +35,7 @@ const QuoteSection = () => {
                 <QuoteText>My mindset in pieces. ¿Which one align  <QuoteStyledText /></QuoteText>
                 <QuoteButton onClick={setNewQuote}>Let me see</QuoteButton>
                 <PhraseContainer>
-                    <Expire delay="7000">
+                    <Expire delay="9000">
                         <PhrasesDiv {...phrases[quoteIndex]} />
                     </Expire>
                 </PhraseContainer>

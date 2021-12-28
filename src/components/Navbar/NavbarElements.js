@@ -50,8 +50,6 @@ export const LogoScrolled = styled.object`
 `
 
 export const Nav = styled.nav`
-  background: rgba(0,0,0,0.2);
- 
   height: 80px;
   display: flex;
   justify-content: space-between;
