@@ -48,6 +48,21 @@
         "id":10,
         "phrase": "The road to creativity passes very close to the madhouse and often stops or ends there.",
         "author": "Ernest Becker."
+    },
+    {
+        "id":11,
+        "phrase": "Controlling complexity is the essence of programming.",
+        "author": "Brian Kernigan."
+    },
+    {
+        "id":12,
+        "phrase": "First solve the problem. Then, write the code.",
+        "author": "John Johnson."
+    },
+    {
+        "id":13,
+        "phrase": "Making mistakes is human, but to really mess things up you need a computer.",
+        "author": "Paul Ehrlich."
     }
 
 ]

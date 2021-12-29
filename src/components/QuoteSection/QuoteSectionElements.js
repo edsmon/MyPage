@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const QuoteContainer = styled.div`
-    height: 50vh;
+    height: 60vh;
     background: black;
     position: relative;
     color: white;
@@ -25,8 +25,6 @@ export const QuoteStyledText = styled.span`
     transform: translate(-50%, -50%);
     color: grey;
     margin-left: 5px;
-    
-    cursor: pointer;
 
     &::before {
       content: "yours?";
@@ -174,7 +172,7 @@ export const PhraseContainer = styled.div`
   display: block;
 
   position: relative;
-  top: 60%;
+  top: 55%;
   
 `
 export const Phrase = styled.div`
@@ -201,6 +199,7 @@ export const Author = styled.div`
   font-size:clamp(1rem, 1vw, 1rem);
   font-style: italic;
   text-align:center;
+  margin-left:-20px;
   
 
   -webkit-animation: fadeout 9s linear forwards;
@@ -218,6 +217,4 @@ export const Author = styled.div`
 `
 export const PhrasesDiv = styled.div`
   color: white;
-  
-
-`
+  `

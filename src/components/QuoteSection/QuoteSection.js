@@ -39,7 +39,9 @@ const QuoteSection = () => {
                         <PhrasesDiv {...phrases[quoteIndex]} />
                     </Expire>
                 </PhraseContainer>
+
             </QuoteContainer>
+
         </>
     );
 }
