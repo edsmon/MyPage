@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
+
 export const AboutHomeContainer = styled.div`
-    height: 200vh;
+    height: 220vh;
     background: rgba(2,2,2,1);
 
     position: relative;
@@ -10,7 +11,7 @@ export const AboutHomeContainer = styled.div`
 
   
     @media only screen and (max-width:1600px) {
-        height: 200vh;
+        height: 220vh;
     }
 `
 export const ImageBg = styled.div`
@@ -25,7 +26,7 @@ export const ImageBg = styled.div`
 
     background-size:cover;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1200px) {
         
         background-position: center center;
         background-size:cover;
@@ -61,16 +62,16 @@ export const TitleTxt = styled.h1`
 
 export const Txt = styled.p`
   display: block;
-  font-size:clamp(1.9rem, 2vw, 2rem);
+  font-size:clamp(1.9rem, 1.6vw, 1.6rem);
   color:white;
-  text-align: justify;
+  text-align: center;
 
   position: absolute;
   top:22%;
   left: 30%;
   right: 30%;
   
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     top:20%;
     text-align: center;
     left: 20%;
@@ -126,8 +127,76 @@ export const Word = styled.p`
 
     &:hover {
         background-position: 0 11px;
-        text-decoration: overline #256ce1;   
-       
+        text-decoration: overline #256ce1 2px;   
     }
    
+`
+export const LowerTxt = styled.p`
+    font-size:clamp(1rem, 1.2vw, 1.2rem);
+    margin-top:10px;
+    display: block;
+    text-align: center;
+    color: white;
+`
+export const GalleryContainer = styled.div`
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15vmin;
+    margin-top: 5vmin;
+    overflow: hidden;
+    transform: skew(5deg);
+`
+export const GalleryCard = styled.div`
+    flex: 1;
+    transition: all 1s ease-in-out;
+    height: 60vmin;
+    position: relative;
+
+    &:hover {
+      flex-grow: 10;
+      img {
+        filter: grayscale(0);
+      }
+    }
+    &:not(:nth-child(6)) {
+      margin-right: 1em;
+    }
+`
+export const CardHead = styled.div`
+    font-family: "Unica One", sans-serif;
+    color: white;
+    background: rgba(37, 108, 225, 0.85);
+    padding: 0.5em;
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    transition: all 0.5s ease-in-out;
+    min-width: 50%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.3em;
+    white-space: nowrap;
+
+    &:hover {
+        text-align: center;
+        font-size: 2.5em;
+        
+      }
+  @media (max-width: 600px) {
+    padding: 0.3em;
+    }
+    
+`
+export const ImgCard = styled.img`
+    src:${props => props.src};
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    filter: grayscale(100%);
+    
+
 `

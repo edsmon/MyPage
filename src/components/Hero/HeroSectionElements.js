@@ -37,7 +37,7 @@ export const Words = styled.span`
 }
     @keyframes spin {
 
-    0% { content:"Web Developer";  }
+    0% { content:"Frontend Developer";  }
     50% { content:"Digital Nomad";  }
     100% { content:"Learning Specialist";  }
 }

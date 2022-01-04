@@ -63,6 +63,16 @@
         "id":13,
         "phrase": "Making mistakes is human, but to really mess things up you need a computer.",
         "author": "Paul Ehrlich."
+    },
+    {
+        "id":14,
+        "phrase": "Standards are always obsolete. That's what makes them standards.",
+        "author": "Alan Bennett."
+    },
+    {
+        "id":15,
+        "phrase": "Right next to my knowledge lies my ignorance.",
+        "author": "Friedrich Nietzsche."
     }
 
 ]

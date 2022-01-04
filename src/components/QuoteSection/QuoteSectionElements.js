@@ -181,8 +181,8 @@ export const Phrase = styled.div`
   text-align:center;
   
 
-  -webkit-animation: fadeout 6s linear forwards;
-  animation: fadeout 6s linear forwards;
+  -webkit-animation: fadeout 7s linear forwards;
+  animation: fadeout 7s linear forwards;
 
   @-webkit-keyframes fadeout {
     0% { opacity: 1; }

@@ -1,7 +1,13 @@
 import React from 'react';
-import { AboutHomeContainer, TitleTxt, ImageBg, Txt, StyledHr, WordContainter, Word } from './AboutHomeElements';
+import { AboutHomeContainer, TitleTxt, ImageBg, Txt, StyledHr, WordContainter, Word, LowerTxt, GalleryContainer, GalleryCard, CardHead, ImgCard } from './AboutHomeElements';
 import img1 from '../../Assets/imgs/abs2.png';
 import img1hover from '../../Assets/imgs/abs1.png';
+import ideasImg from '../../Assets/imgs/Gallery1.png';
+import analyzeImg from '../../Assets/imgs/Gallery2.png';
+import divideImg from '../../Assets/imgs/Gallery3.png';
+import PlanImg from '../../Assets/imgs/Gallery4.png';
+import ImplementImg from '../../Assets/imgs/Gallery5.png';
+import FollowUpImg from '../../Assets/imgs/Gallery6.png';
 
 const AboutHomeSection = () => {
 
@@ -18,8 +24,37 @@ const AboutHomeSection = () => {
             </Txt>
             <StyledHr />
             <TitleTxt>
-                ¿What are you thinking?
+                Know my process
             </TitleTxt>
+            <LowerTxt>
+                Working with web projects requires a structured process that brings people together in a constructive, creative and organized way.
+            </LowerTxt>
+            <GalleryContainer>
+                <GalleryCard>
+                    <ImgCard src={ideasImg} />
+                    <CardHead>Idea</CardHead>
+                </GalleryCard>
+                <GalleryCard>
+                    <ImgCard src={analyzeImg} />
+                    <CardHead>Analize</CardHead>
+                </GalleryCard>
+                <GalleryCard>
+                    <ImgCard src={divideImg} />
+                    <CardHead>Divide</CardHead>
+                </GalleryCard>
+                <GalleryCard>
+                    <ImgCard src={PlanImg} />
+                    <CardHead>Plan</CardHead>
+                </GalleryCard>
+                <GalleryCard>
+                    <ImgCard src={ImplementImg} />
+                    <CardHead>Implement</CardHead>
+                </GalleryCard>
+                <GalleryCard>
+                    <ImgCard src={FollowUpImg} />
+                    <CardHead>Follow-up</CardHead>
+                </GalleryCard>
+            </GalleryContainer>
 
         </AboutHomeContainer>
     )
