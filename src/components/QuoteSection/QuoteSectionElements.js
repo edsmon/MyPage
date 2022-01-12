@@ -16,6 +16,10 @@ export const QuoteText = styled.div`
     transform: translate(-50%, -50%);
     margin-left:-40px;
     display:block;
+
+    @media only screen and (max-width:500px) {
+      margin-left: 0px;
+     }
 `;
 
 export const QuoteStyledText = styled.span`
@@ -94,7 +98,6 @@ export const QuoteButton = styled.button`
 
     cursor: pointer;
     
-    
     &::after {
       --slice-0: inset(50% 50% 50% 50%);
       --slice-1: inset(80% -6px 0 0);
@@ -166,6 +169,10 @@ export const QuoteButton = styled.button`
         transform: translate(0);
       }
     }
+
+  @media only screen and (max-width:500px) {
+        left:30%; 
+     }
 `;
 
 export const PhraseContainer = styled.div`
@@ -173,13 +180,14 @@ export const PhraseContainer = styled.div`
 
   position: relative;
   top: 55%;
-  
+  @media only screen and (max-width:500px) {
+        padding: 2em; 
+     }
 `
 export const Phrase = styled.div`
   display: block;
   font-size:clamp(1.5rem, 1vw, 1rem);
   text-align:center;
-  
 
   -webkit-animation: fadeout 7s linear forwards;
   animation: fadeout 7s linear forwards;
@@ -201,7 +209,6 @@ export const Author = styled.div`
   text-align:center;
   margin-left:-20px;
   
-
   -webkit-animation: fadeout 9s linear forwards;
   animation: fadeout 9s linear forwards;
 
@@ -214,6 +221,10 @@ export const Author = styled.div`
     0% { opacity: 1; }
     100% { opacity: 0; }
 }
+
+  @media only screen and (max-width:500px) {
+      margin-left: 0px; 
+    }
 `
 export const PhrasesDiv = styled.div`
   color: white;

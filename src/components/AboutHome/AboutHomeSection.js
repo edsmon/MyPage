@@ -19,7 +19,7 @@ const AboutHomeSection = () => {
             </TitleTxt>
             <ImageBg url={img1} position="center left" hover={img1hover} />
             <Txt>
-                I follow those interested in creating, innovating and entrepreneurship.
+                Hello, I'm Edward Stanley Monzon. I follow those interested in creating, innovating and entrepreneurship.
                 The birth, growth and materialization of <WordContainter>  <Word> ideas </Word></WordContainter>  is a beautiful chaos that captivates me.
             </Txt>
             <StyledHr />

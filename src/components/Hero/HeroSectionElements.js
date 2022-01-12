@@ -10,12 +10,19 @@ export const HeroTitle = styled.h1`
     margin-left: -60px;
     
     color: white;
+
+     @media only screen and (max-width:500px) {
+      margin-left: 0px;
+     }
 `
 export const HeroTitleTextLower = styled.div`
     margin-left: -70px;
     color: white;
     font-size: clamp(1rem, 2vw, 2rem);
 
+    @media only screen and (max-width:500px) {
+      margin-left: 0px;
+     }
 `
 export const Words = styled.span`
     

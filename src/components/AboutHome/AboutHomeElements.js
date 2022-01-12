@@ -2,16 +2,21 @@ import styled from 'styled-components';
 
 
 export const AboutHomeContainer = styled.div`
-    height: 220vh;
+    height: 210vh;
     background: rgba(2,2,2,1);
 
     position: relative;
 
     box-shadow: 0px 20px  20px  black inset; 
 
-  
-    @media only screen and (max-width:1600px) {
-        height: 220vh;
+    @media (max-width: 1000px) {
+      height: 180vh;
+    }
+    @media (max-width: 800px) {
+      height: 170vh;
+    }
+    @media (max-width: 600px) {
+      height: 210vh;
     }
 `
 export const ImageBg = styled.div`
@@ -58,13 +63,18 @@ export const TitleTxt = styled.h1`
     z-index:1;
     
     color: white;
-`;
+
+    @media (max-width: 600px) {
+      padding:1.5em;
+    }
+`
 
 export const Txt = styled.p`
   display: block;
   font-size:clamp(1.9rem, 1.6vw, 1.6rem);
   color:white;
   text-align: center;
+  background: transparent;
 
   position: absolute;
   top:22%;
@@ -137,6 +147,12 @@ export const LowerTxt = styled.p`
     display: block;
     text-align: center;
     color: white;
+    
+    @media only screen and (max-width:500px) {
+      
+      margin-bottom: 40px;
+      padding:2em;
+     }
 `
 export const GalleryContainer = styled.div`
     
@@ -163,6 +179,9 @@ export const GalleryCard = styled.div`
     &:not(:nth-child(6)) {
       margin-right: 1em;
     }
+    @media (max-width: 600px) {
+      height: 80vmin;
+    }
 `
 export const CardHead = styled.div`
     font-family: "Unica One", sans-serif;
@@ -186,7 +205,11 @@ export const CardHead = styled.div`
         
       }
   @media (max-width: 600px) {
-    padding: 0.3em;
+    padding: 0.2em;
+    &:hover {
+        text-align: center;
+        font-size: 1.8em;
+      }
     }
     
 `
