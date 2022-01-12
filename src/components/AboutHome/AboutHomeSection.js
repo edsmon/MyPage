@@ -19,15 +19,15 @@ const AboutHomeSection = () => {
             </TitleTxt>
             <ImageBg url={img1} position="center left" hover={img1hover} />
             <Txt>
-                Hello, I'm Edward Stanley Monzon. I follow those interested in creating, innovating and entrepreneurship.
-                The birth, growth and materialization of <WordContainter>  <Word> ideas </Word></WordContainter>  is a beautiful chaos that captivates me.
+                Hi! I'm Edward Stanley Monzon. I like the messiness of doers, thinkers, innovators and entrepreneurs.
+                The awkward process of birth, growth, and materialization of <WordContainter>  <Word> ideas </Word></WordContainter>  is a beautiful chaos that captivates me.
             </Txt>
             <StyledHr />
             <TitleTxt>
                 Know my process
             </TitleTxt>
             <LowerTxt>
-                Working with web projects requires a structured process that brings people together in a constructive, creative and organized way.
+                Every project has stages. Each stage requires a plan and there is no plan without a problem. ¿What is yours?
             </LowerTxt>
             <GalleryContainer>
                 <GalleryCard>
