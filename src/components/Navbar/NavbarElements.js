@@ -108,7 +108,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(Link)`
+export const NavBtnLink = styled.button`
   
   background: #256ce1;
   padding: 5px 22px;

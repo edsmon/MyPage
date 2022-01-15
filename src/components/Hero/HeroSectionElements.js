@@ -45,8 +45,8 @@ export const Words = styled.span`
     @keyframes spin {
 
     0% { content:"Frontend Developer";  }
-    50% { content:"Digital Nomad";  }
-    100% { content:"Learning Specialist";  }
+    50% { content:"Learning Specialist";  }
+    100% { content:"Knowmad";  }
 }
 `
 

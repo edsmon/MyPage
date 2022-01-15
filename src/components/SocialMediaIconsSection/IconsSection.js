@@ -20,7 +20,7 @@ const IconsSection = () => {
                 <LinkIcon href="https://www.instagram.com/edsmon.ed/?hl=es-la" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} size="3x" transform="right-4" />
                 </LinkIcon>
-                <LinkIcon href="#">
+                <LinkIcon href="mailto:edward.m17@hotmail.com?Subject=Hi!%20Ed%20I%20need%20help%20with%20this">
                     <FontAwesomeIcon icon={faGoogle} size="3x" transform="right-7" />
                 </LinkIcon>
             </Icons>

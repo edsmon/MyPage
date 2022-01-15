@@ -1,21 +1,23 @@
 
 import React, { useEffect, useState } from 'react';
 import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink, Logo, LogoScrolled } from './NavbarElements';
+import Modal from '../Modals/Modal';
 import '../../App.css';
 import './navBar.css';
 
 const Navbar = () => {
 
     const [scrollLogo, setScrollLogo] = useState(true);
-    const [navBg, setNavBg] = useState(false)
+    const [navBg, setNavBg] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
 
     const changeLogo = () => {
-        
+
         if (window.scrollY >= 200) {
             setScrollLogo(false)
 
         } else if (window.scrollY <= 200) {
-            
+
             setScrollLogo(true)
         }
     }
@@ -57,10 +59,12 @@ const Navbar = () => {
                         Playground
                     </NavLink>
                     <NavBtn>
-                        <NavBtnLink to="/contact">Contact</NavBtnLink>
+                        <NavBtnLink onClick={() => { setModalOpen(true); }}>Contact</NavBtnLink>
                     </NavBtn>
                 </NavMenu>
+                {modalOpen && <Modal setOpenModal={setModalOpen} />}
             </Nav>
+
         </>
     );
 }

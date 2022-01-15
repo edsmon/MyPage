@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import UnderConstructionSection from '../components/UnderConstruction/UnderConstructionSection';
 
 const Playground = () => {
     return (
-        <div>
-            <h1>Playground</h1>
-        </div>
+        <>
+            <UnderConstructionSection />
+        </>
     )
 }
 

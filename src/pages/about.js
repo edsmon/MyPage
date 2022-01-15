@@ -1,10 +1,11 @@
 import React from 'react';
+import UnderConstructionSection from '../components/UnderConstruction/UnderConstructionSection';
 
 const About = () => {
     return (
-        <div>
-            <h1>About Edward</h1>
-        </div>
+        <>
+            <UnderConstructionSection />
+        </>
     )
 };
 
